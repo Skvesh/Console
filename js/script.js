@@ -15,10 +15,4 @@ const a = prompt('Один из последних просмотренных ф
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
-// let lastWatchedFilm = prompt('Один из последних просмотренных фильмов?', '');
-// let filmScore = +prompt('На сколько оцените его?', '');
-// personalMovieDB.movies[lastWatchedFilm] = filmScore;
-// lastWatchedFilm = prompt('Один из последних просмотренных фильмов?', '');
-// filmScore = +prompt('На сколько оцените его?', '');
-// personalMovieDB.movies[lastWatchedFilm] = filmScore;
 console.log(personalMovieDB);
